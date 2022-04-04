@@ -1604,3 +1604,1187 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.04.04-10.57.31:323][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.04.04-10.57.31:328][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
 [2022.04.04-10.57.31:358][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.04.04-10.58.08:213][526]LogHttp: Warning: 000001E070453900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.58.08:213][526]LogHttp: Warning: 000001E070453900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.58.08:213][526]LogHttp: Warning: 000001E070453900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.58.08:213][526]LogHttp: Warning: 000001E070453900: libcurl info message cache 1 (Closing connection 9)
+[2022.04.04-10.58.08:213][526]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.58.17:300][  2]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliageC55D6D224C9903D7AF9FACAF433C090C.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.58.17:314][  2]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.58.17:314][  2]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.58.19:623][136]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.58.19:628][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.58.19:628][136]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:58:19)
+[2022.04.04-10.58.19:628][136]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.58.19:686][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057856s)
+[2022.04.04-10.58.19:687][136]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.58.19:688][136]LogPlayLevel: PIE: World Init took: (0.001794s)
+[2022.04.04-10.58.19:688][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059803s)
+[2022.04.04-10.58.19:710][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.04.04-10.58.19:712][136]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.58.19:712][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.58.19:712][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.58.19:713][136]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.58.19:713][136]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.58.19:714][136]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.58.19:714][136]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.58.19:763][136]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.58.19:763][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.58.19:763][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.58.19:763][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.58.19:764][136]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.58.19:764][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.58.19:764][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.58.19:783][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.58.19:783][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.58.19:783][136]LogInit: FAudioDevice initialized.
+[2022.04.04-10.58.19:783][136]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.58.19:791][136]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.58.19:796][136]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.58.19
+[2022.04.04-10.58.19:798][136]LogWorld: Bringing up level for play took: 0.005585
+[2022.04.04-10.58.19:798][136]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.04.04-10.58.19:801][136]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.58.19:801][136]PIE: Play in editor total start time 0,174 seconds.
+[2022.04.04-10.59.08:207][ 39]LogHttp: Warning: 000001E0C276C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.59.08:207][ 39]LogHttp: Warning: 000001E0C276C800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.59.08:207][ 39]LogHttp: Warning: 000001E0C276C800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.59.08:207][ 39]LogHttp: Warning: 000001E0C276C800: libcurl info message cache 1 (Closing connection 10)
+[2022.04.04-10.59.08:222][ 40]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.59.15:265][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.59.15:265][460]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.59.15:266][460]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.59.15:266][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.59.15:276][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.59.15:278][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.59.15:285][460]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.59.15:285][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.59.15:287][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.59.15:307][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.59.15:311][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2022.04.04-10.59.15:368][462]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.04.04-10.59.23:422][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.04.04-10.59.23:578][941]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/ThirdPersonExampleMapDDE99E7C43F3BE51ED44958E18F9A933.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.04-10.59.23:598][941]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2022.04.04-10.59.23:598][941]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.04.04-10.59.34:746][593]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-10.59.34:759][593]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-10.59.34:759][593]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-10.59.34:759][593]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-10.59.34:759][593]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-10.59.35:653][637]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.04.04-10.59.35:929][652]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.04.04-10.59.36:202][667]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.04.04-10.59.36:294][672]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2022.04.04-10.59.36:883][704]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-10.59.36:977][709]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.04.04-10.59.37:066][714]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-10.59.37:944][761]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-10.59.37:945][761]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-10.59.37:945][761]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-10.59.37:948][761]MaterialEditorStats: Error: [SM5] The material can contain only one Grass node
+[2022.04.04-10.59.41:620][977]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-10.59.41:621][977]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-10.59.41:621][977]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-10.59.53:729][637]LogContentBrowser: Deferred new asset file creation: NewLandscapeGrassType
+[2022.04.04-10.59.53:738][637]LogContentBrowser: Creating deferred item: NewLandscapeGrassType
+[2022.04.04-10.59.59:429][979]LogContentBrowser: Attempting asset rename: NewLandscapeGrassType -> TreeFoliage
+[2022.04.04-10.59.59:430][979]LogContentBrowser: End creating deferred item NewLandscapeGrassType
+[2022.04.04-11.00.00:699][ 54]LogAssetEditorSubsystem: Opening Asset editor for LandscapeGrassType /Game/MisAssets/Texturas/Materiales/TreeFoliage.TreeFoliage
+[2022.04.04-11.00.08:201][502]LogHttp: Warning: 000001E0B5D1EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.00.08:201][502]LogHttp: Warning: 000001E0B5D1EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.00.08:201][502]LogHttp: Warning: 000001E0B5D1EB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.00.08:201][502]LogHttp: Warning: 000001E0B5D1EB00: libcurl info message cache 1 (Closing connection 11)
+[2022.04.04-11.00.08:201][502]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.00.25:906][556]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/TreeFoliageD900C7964BFF84314D9900ADCB25F709.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/TreeFoliage.uasset'
+[2022.04.04-11.00.25:918][556]AssetCheck: New page: Asset Save: TreeFoliage
+[2022.04.04-11.00.25:918][556]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/TreeFoliage.TreeFoliage
+[2022.04.04-11.00.33:703][  9]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/TreeFoliage4D78601B4BA65CE80C408A9C642F1AF8.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/TreeFoliage.uasset'
+[2022.04.04-11.00.33:716][  9]AssetCheck: New page: Asset Save: TreeFoliage
+[2022.04.04-11.00.33:716][  9]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/TreeFoliage.TreeFoliage
+[2022.04.04-11.00.45:946][731]Cmd: TRANSACTION UNDO
+[2022.04.04-11.00.45:946][731]LogEditorTransaction: Undo Borrar hijos
+[2022.04.04-11.00.45:956][731]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.00.45:957][731]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.00.45:957][731]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.00:972][609]Cmd: TRANSACTION UNDO
+[2022.04.04-11.01.00:972][609]LogEditorTransaction: Undo Borrar hijos
+[2022.04.04-11.01.00:978][609]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.00:979][609]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.00:979][609]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.08:222][ 24]LogHttp: Warning: 000001E094253900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.01.08:222][ 24]LogHttp: Warning: 000001E094253900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.01.08:222][ 24]LogHttp: Warning: 000001E094253900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.01.08:222][ 24]LogHttp: Warning: 000001E094253900: libcurl info message cache 1 (Closing connection 12)
+[2022.04.04-11.01.08:222][ 24]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.01.08:471][ 37]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliageE7F08C634F6E4D282A0B508AF7A41457.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-11.01.08:485][ 37]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-11.01.08:485][ 37]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-11.01.14:702][405]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/TreeFoliage31467D9B4727842EFB1D30AE54710824.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/TreeFoliage.uasset'
+[2022.04.04-11.01.14:718][405]AssetCheck: New page: Asset Save: TreeFoliage
+[2022.04.04-11.01.14:718][405]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/TreeFoliage.TreeFoliage
+[2022.04.04-11.01.18:350][618]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.18:351][618]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.18:351][618]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.22:614][869]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.22:615][869]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.22:615][869]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.22:618][869]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.22:619][869]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.22:619][869]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.24:848][999]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.24:849][999]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.24:849][999]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.35:062][611]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.35:063][611]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.35:063][611]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.35:067][611]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.35:068][611]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.35:068][611]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.35:567][641]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.01.42:015][641]LogSlate: Window 'Atención: Errores de compilación en este material' being destroyed
+[2022.04.04-11.01.42:602][641]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.42:603][641]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.42:603][641]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.42:623][641]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.42:624][641]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\MisAssets\Texturas\Materiales\Hierba_0.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.42:624][641]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.42:630][641]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.42:632][641]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.42:632][641]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.42:633][641]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.42:634][641]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.42:634][641]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.42:635][641]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.42:637][641]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.42:637][641]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.42:638][641]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.42:639][641]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.42:639][641]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.42:656][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.04.04-11.01.42:668][641]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.01.42:669][641]TextureStreamingBuild: Display: Compiling optional shaders took 0.005 seconds.
+[2022.04.04-11.01.42:675][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.04.04-11.01.42:739][641]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_0E8D0F5664DFD1E3A1762EC92CC3898E3.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.01.42:755][641]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.01.42:755][641]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.01.53:959][306]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.53:960][306]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.53:960][306]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.01.57:091][489]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLandscapeLayerSample'"MaterialGraphNode_77.MaterialExpressionLandscapeLayerSample_1"'))'
+[2022.04.04-11.01.57:105][489]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.01.57:106][489]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.01.57:107][489]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.01:543][749]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.01:544][749]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.01:544][749]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.01:548][749]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.01:549][749]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.01:549][749]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.04:723][935]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.02.10:291][935]LogSlate: Window 'Atención: Errores de compilación en este material' being destroyed
+[2022.04.04-11.02.10:874][935]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.10:875][935]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.10:875][935]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.10:894][935]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.10:895][935]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\MisAssets\Texturas\Materiales\Hierba_0.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.10:895][935]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.10:901][935]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.10:903][935]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.10:903][935]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.10:904][935]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.10:905][935]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.10:905][935]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.10:906][935]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.10:908][935]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.10:908][935]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.10:909][935]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.10:910][935]LogMaterial: Warning: [AssetLog] C:\Users\javie\Documents\Github\Github\Unreal_P2\Ejercicio2\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to compile Material Instance with Base Hierba_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.10:910][935]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.10:924][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.04.04-11.02.10:930][935]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.02.10:931][935]TextureStreamingBuild: Display: Compiling optional shaders took 0.005 seconds.
+[2022.04.04-11.02.10:936][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.04.04-11.02.10:996][935]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_03E39809046EB1B0231E380A4BA56E285.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.02.11:010][935]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.02.11:010][935]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.02.11:050][937]LogHttp: Warning: 000001E08FE1D600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.02.11:050][937]LogHttp: Warning: 000001E08FE1D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.02.11:050][937]LogHttp: Warning: 000001E08FE1D600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.02.11:050][937]LogHttp: Warning: 000001E08FE1D600: libcurl info message cache 1 (Closing connection 13)
+[2022.04.04-11.02.11:063][938]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.02.33:466][122]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.33:467][122]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.33:467][122]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.33:471][122]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.33:472][122]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.33:472][122]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.38:063][397]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.38:064][397]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.38:064][397]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.38:067][397]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.38:068][397]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.38:068][397]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.39:340][472]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.02.41:096][472]LogSlate: Window 'Atención: Errores de compilación en este material' being destroyed
+[2022.04.04-11.02.43:328][604]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.43:329][604]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.43:329][604]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.45:443][724]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.45:580][725]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-11.02.45:580][725]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-11.02.45:580][725]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-11.02.45:580][725]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.02.46:342][767]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.04.04-11.02.46:360][768]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.02.47:267][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.04.04-11.02.47:267][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.04.04-11.02.47:267][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.04.04-11.02.47:267][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-11.02.47:267][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.04-11.02.47:267][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-11.02.47:283][768]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.47:356][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2022.04.04-11.02.47:372][768]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.47:436][768]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.47:493][768]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.47:555][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.04.04-11.02.47:564][768]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.02.48:128][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 125
+[2022.04.04-11.02.48:128][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 124
+[2022.04.04-11.02.48:128][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 123
+[2022.04.04-11.02.48:128][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 122
+[2022.04.04-11.02.48:686][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 121
+[2022.04.04-11.02.48:686][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 120
+[2022.04.04-11.02.48:686][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 119
+[2022.04.04-11.02.48:686][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 118
+[2022.04.04-11.02.49:245][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 117
+[2022.04.04-11.02.49:245][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 116
+[2022.04.04-11.02.49:245][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 115
+[2022.04.04-11.02.49:245][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 114
+[2022.04.04-11.02.49:245][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 113
+[2022.04.04-11.02.49:564][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 103
+[2022.04.04-11.02.49:565][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 93
+[2022.04.04-11.02.49:565][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 83
+[2022.04.04-11.02.49:576][768]TextureStreamingBuild: Display: Compiling optional shaders took 2.019 seconds.
+[2022.04.04-11.02.49:586][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.04.04-11.02.54:111][768]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 73
+[2022.04.04-11.02.54:671][768]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 63
+[2022.04.04-11.02.54:671][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 53
+[2022.04.04-11.02.54:671][768]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2022.04.04-11.02.54:774][768]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_0F98C14BF4FCF880434AC6C85C2F97E94.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.02.54:803][768]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.02.54:803][768]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.04-11.02.54:806][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.04-11.02.56:386][844]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.56:388][844]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.56:388][844]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.02.56:394][844]MaterialEditorStats: Error: [SM5] The material can contain only one Grass node
+[2022.04.04-11.02.59:775][ 16]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.02.59:777][ 16]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.02.59:777][ 16]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.03.00:853][ 70]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2022.04.04-11.03.02:009][127]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2022.04.04-11.03.02:416][148]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2022.04.04-11.03.02:935][169]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.02:936][169]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.02:936][169]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.03.02:942][169]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.02:943][169]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.02:943][169]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.03.03:651][199]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.03.04:223][199]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2022.04.04-11.03.05:271][199]LogSlate: Window 'Atención: Errores de compilación en este material' being destroyed
+[2022.04.04-11.03.06:101][242]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2022.04.04-11.03.06:383][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.04.04-11.03.06:951][283]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-11.03.07:381][303]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.04.04-11.03.07:444][306]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.04.04-11.03.08:227][350]LogHttp: Warning: 000001E09AC1C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.03.08:228][350]LogHttp: Warning: 000001E09AC1C800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.03.08:228][350]LogHttp: Warning: 000001E09AC1C800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.03.08:228][350]LogHttp: Warning: 000001E09AC1C800: libcurl info message cache 1 (Closing connection 14)
+[2022.04.04-11.03.08:228][350]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.03.08:731][377]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.08:732][377]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.08:732][377]LogMaterial: Display: 	The material can contain only one Grass node
+[2022.04.04-11.03.10:351][469]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.10:367][469]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-11.03.10:367][469]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-11.03.10:367][469]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-11.03.10:367][469]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.03.10:971][494]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.04.04-11.03.11:276][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.04.04-11.03.11:426][518]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.04.04-11.03.11:481][521]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.04.04-11.03.12:139][554]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.04.04-11.03.12:178][556]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.04.04-11.03.12:381][567]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.04-11.03.13:136][609]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.04-11.03.16:663][819]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.16:673][819]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-11.03.16:673][819]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-11.03.16:673][819]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-11.03.16:673][819]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.03.17:292][845]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.04.04-11.03.17:589][860]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.04.04-11.03.17:739][868]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.04.04-11.03.17:812][872]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.04.04-11.03.18:445][904]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-11.03.18:479][906]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.04-11.03.18:676][916]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-11.03.19:011][932]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.19:012][932]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.19:012][932]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.03.19:017][932]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.19:018][932]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.19:018][932]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.03.19:044][933]MaterialEditorStats: Error: [SM5] Grass> Input missing
+[2022.04.04-11.03.34:775][868]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.34:776][868]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.34:776][868]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.03.39:363][138]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.39:364][138]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.39:364][138]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.03.39:368][138]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.39:369][138]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.03.39:369][138]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.03.41:803][279]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.41:818][279]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-11.03.41:818][279]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-11.03.41:818][279]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-11.03.41:818][279]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.03.42:743][329]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.04.04-11.03.42:996][343]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.04.04-11.03.43:166][352]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.04.04-11.03.43:201][354]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.04.04-11.03.43:890][391]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.04.04-11.03.43:890][391]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2022.04.04-11.03.44:070][401]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-11.03.44:760][439]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.03.45:364][439]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.45:410][439]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-11.03.45:410][439]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-11.03.45:410][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-11.03.45:410][439]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.03.45:420][439]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.45:485][439]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.45:535][439]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.03.45:588][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.04.04-11.03.45:596][439]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.03.46:167][439]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 122
+[2022.04.04-11.03.46:167][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 121
+[2022.04.04-11.03.46:167][439]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 120
+[2022.04.04-11.03.46:167][439]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 119
+[2022.04.04-11.03.46:727][439]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 118
+[2022.04.04-11.03.46:727][439]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 117
+[2022.04.04-11.03.46:727][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 116
+[2022.04.04-11.03.47:285][439]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 115
+[2022.04.04-11.03.47:285][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 114
+[2022.04.04-11.03.47:285][439]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 113
+[2022.04.04-11.03.47:285][439]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 103
+[2022.04.04-11.03.47:285][439]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 93
+[2022.04.04-11.03.47:419][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 83
+[2022.04.04-11.03.47:432][439]TextureStreamingBuild: Display: Compiling optional shaders took 1.842 seconds.
+[2022.04.04-11.03.47:441][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.04.04-11.03.51:969][439]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 73
+[2022.04.04-11.03.52:528][439]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 63
+[2022.04.04-11.03.52:528][439]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2022.04.04-11.03.52:794][439]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2022.04.04-11.03.52:864][439]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_09D75974844BF686DDA5645B2F95CB5F9.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.03.52:900][439]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.03.52:900][439]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.04-11.03.52:903][439]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.04-11.03.59:309][780]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2022.04.04-11.04.00:183][829]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.00:205][829]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.00:408][838]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2022.04.04-11.04.00:626][850]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2022.04.04-11.04.01:426][891]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.04.02:377][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 33
+[2022.04.04-11.04.02:377][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2022.04.04-11.04.02:377][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2022.04.04-11.04.02:377][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2022.04.04-11.04.02:394][891]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.02:457][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2022.04.04-11.04.02:473][891]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.02:543][891]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.02:597][891]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.02:653][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.04.04-11.04.02:662][891]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.04.03:229][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 149
+[2022.04.04-11.04.03:229][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 148
+[2022.04.04-11.04.03:229][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 147
+[2022.04.04-11.04.03:788][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 146
+[2022.04.04-11.04.03:788][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 145
+[2022.04.04-11.04.03:788][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 144
+[2022.04.04-11.04.04:347][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 143
+[2022.04.04-11.04.04:347][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 142
+[2022.04.04-11.04.04:347][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 141
+[2022.04.04-11.04.04:906][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 140
+[2022.04.04-11.04.04:906][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 139
+[2022.04.04-11.04.04:906][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 138
+[2022.04.04-11.04.05:172][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 137
+[2022.04.04-11.04.05:172][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 127
+[2022.04.04-11.04.05:172][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 117
+[2022.04.04-11.04.05:172][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 107
+[2022.04.04-11.04.05:183][891]TextureStreamingBuild: Display: Compiling optional shaders took 2.528 seconds.
+[2022.04.04-11.04.05:192][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.04.04-11.04.09:710][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 97
+[2022.04.04-11.04.09:710][891]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 87
+[2022.04.04-11.04.10:269][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 77
+[2022.04.04-11.04.10:826][891]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 67
+[2022.04.04-11.04.14:024][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 57
+[2022.04.04-11.04.14:147][891]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_0A2A0A1574B23DD6AF6477CBA2A477358.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.04.14:191][891]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.04.14:191][891]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.04-11.04.14:195][891]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.04-11.04.14:253][893]LogHttp: Warning: 000001E0A8305600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.04.14:253][893]LogHttp: Warning: 000001E0A8305600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.04.14:253][893]LogHttp: Warning: 000001E0A8305600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.04.14:253][893]LogHttp: Warning: 000001E0A8305600: libcurl info message cache 1 (Closing connection 15)
+[2022.04.04-11.04.14:273][894]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.04.14:469][905]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 47
+[2022.04.04-11.04.15:088][940]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 37
+[2022.04.04-11.04.16:246][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2022.04.04-11.04.18:830][135]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.21:003][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2022.04.04-11.04.22:301][327]LogEditorTransaction: Undo Crear enlace del Pin
+[2022.04.04-11.04.22:308][327]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.22:331][327]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.22:369][327]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2022.04.04-11.04.23:196][353]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2022.04.04-11.04.23:456][367]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2022.04.04-11.04.23:632][377]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.04.24:539][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2022.04.04-11.04.24:539][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2022.04.04-11.04.24:539][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2022.04.04-11.04.24:539][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2022.04.04-11.04.24:539][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2022.04.04-11.04.24:561][377]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.24:637][377]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.24:705][377]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.24:759][377]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.04.24:815][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 144
+[2022.04.04-11.04.24:819][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.04.04-11.04.24:829][377]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.04.25:396][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 145
+[2022.04.04-11.04.25:396][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 144
+[2022.04.04-11.04.25:396][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 143
+[2022.04.04-11.04.25:955][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 142
+[2022.04.04-11.04.25:955][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 141
+[2022.04.04-11.04.25:955][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 140
+[2022.04.04-11.04.25:955][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 139
+[2022.04.04-11.04.26:514][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 138
+[2022.04.04-11.04.26:514][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 137
+[2022.04.04-11.04.26:514][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 136
+[2022.04.04-11.04.26:514][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 135
+[2022.04.04-11.04.26:867][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 134
+[2022.04.04-11.04.26:867][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 133
+[2022.04.04-11.04.26:867][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 123
+[2022.04.04-11.04.26:867][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 113
+[2022.04.04-11.04.26:867][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 103
+[2022.04.04-11.04.26:875][377]TextureStreamingBuild: Display: Compiling optional shaders took 2.054 seconds.
+[2022.04.04-11.04.26:884][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.04.04-11.04.30:284][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 93
+[2022.04.04-11.04.31:961][377]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 83
+[2022.04.04-11.04.32:519][377]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 73
+[2022.04.04-11.04.32:519][377]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 63
+[2022.04.04-11.04.34:819][377]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 53
+[2022.04.04-11.04.34:984][377]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_0585E9C5741ECC3225A6DF2A4F8128E6E.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.04.35:030][377]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.04.35:030][377]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.04.35:032][377]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.04-11.04.35:033][377]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2022.04.04-11.04.35:033][377]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.04-11.04.35:033][377]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.04-11.04.35:033][377]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.04-11.04.35:033][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.04-11.04.35:033][377]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.04-11.04.36:600][441]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 43
+[2022.04.04-11.04.37:837][495]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2022.04.04-11.04.38:529][530]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2022.04.04-11.04.41:637][699]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2022.04.04-11.04.45:457][909]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2022.04.04-11.04.45:607][918]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2022.04.04-11.04.46:807][990]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.04.04-11.04.46:908][996]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2022.04.04-11.04.47:331][ 21]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.04.04-11.04.47:675][ 42]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.04.04-11.05.08:224][171]LogHttp: Warning: 000001E0B3FB4800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.05.08:224][171]LogHttp: Warning: 000001E0B3FB4800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.05.08:224][171]LogHttp: Warning: 000001E0B3FB4800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.05.08:224][171]LogHttp: Warning: 000001E0B3FB4800: libcurl info message cache 1 (Closing connection 16)
+[2022.04.04-11.05.08:240][172]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.05.12:490][423]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.12:500][423]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.12:517][423]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2022.04.04-11.05.12:517][423]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2022.04.04-11.05.12:517][423]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2022.04.04-11.05.12:517][423]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.05.13:439][466]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2022.04.04-11.05.13:512][470]LogMaterialEditor: Saving and Compiling material Hierba_0
+[2022.04.04-11.05.14:447][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2022.04.04-11.05.14:447][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.04.04-11.05.14:447][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2022.04.04-11.05.14:447][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-11.05.14:447][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2022.04.04-11.05.14:447][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-11.05.14:461][470]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.14:507][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2022.04.04-11.05.14:534][470]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.14:597][470]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.14:645][470]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.14:700][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.04.04-11.05.14:708][470]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.04.04-11.05.15:274][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 125
+[2022.04.04-11.05.15:274][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 124
+[2022.04.04-11.05.15:274][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 123
+[2022.04.04-11.05.15:274][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 122
+[2022.04.04-11.05.15:833][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 121
+[2022.04.04-11.05.15:833][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 120
+[2022.04.04-11.05.15:833][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 119
+[2022.04.04-11.05.16:391][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 118
+[2022.04.04-11.05.16:391][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 117
+[2022.04.04-11.05.16:391][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 116
+[2022.04.04-11.05.16:391][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 115
+[2022.04.04-11.05.16:786][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 114
+[2022.04.04-11.05.16:786][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 113
+[2022.04.04-11.05.16:786][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 103
+[2022.04.04-11.05.16:786][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 93
+[2022.04.04-11.05.16:786][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 83
+[2022.04.04-11.05.16:799][470]TextureStreamingBuild: Display: Compiling optional shaders took 2.097 seconds.
+[2022.04.04-11.05.16:807][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.04.04-11.05.21:329][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 73
+[2022.04.04-11.05.21:888][470]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2022.04.04-11.05.21:888][470]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 53
+[2022.04.04-11.05.22:016][470]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+[2022.04.04-11.05.22:094][470]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Hierba_0BA0A4D72435BFEA0E32921B90D84A209.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/Hierba_0.uasset'
+[2022.04.04-11.05.22:144][470]AssetCheck: New page: Asset Save: Hierba_0
+[2022.04.04-11.05.22:144][470]LogContentValidation: Display: Validating Material /Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: Base pass shader with Surface Lightmap: 144 instructions
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.04-11.05.22:146][470]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.04-11.05.26:977][752]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2022.04.04-11.05.27:682][794]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 24
+[2022.04.04-11.05.27:759][798]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2022.04.04-11.05.29:687][913]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.04.04-11.05.32:206][ 63]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.04.04-11.05.32:272][ 67]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.04.04-11.05.33:255][126]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.04.04-11.05.33:490][140]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.04.04-11.05.33:622][148]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2022.04.04-11.05.44:934][783]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeGrassOutput_0, compiling. 
+[2022.04.04-11.05.49:995][ 84]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.49:996][ 84]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.05.49:996][ 84]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.05.49:999][ 84]LogMaterial: Display: Missing cached shader map for material Hierba_0, compiling. 
+[2022.04.04-11.05.50:001][ 84]LogMaterial: Warning: [AssetLog] /Engine/Transient.Hierba_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2022.04.04-11.05.50:001][ 84]LogMaterial: Display: 	Grass> Input missing
+[2022.04.04-11.05.50:022][ 85]MaterialEditorStats: Error: [SM5] Grass> Input missing
+[2022.04.04-11.06.08:210][167]LogHttp: Warning: 000001E0B44DD600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.06.08:210][167]LogHttp: Warning: 000001E0B44DD600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.06.08:210][167]LogHttp: Warning: 000001E0B44DD600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.06.08:210][167]LogHttp: Warning: 000001E0B44DD600: libcurl info message cache 1 (Closing connection 17)
+[2022.04.04-11.06.08:228][168]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-11.06.12:239][318]LogSlate: Window 'Mensaje' being destroyed
+[2022.04.04-11.06.12:245][318]Message dialog closed, result: Yes, title: Mensaje, text: ¿Quiere aplicar los cambios a este material?
+/Game/MisAssets/Texturas/Materiales/Hierba_0.Hierba_0
+(¡No se perderán todos lo cambios!)
+[2022.04.04-11.06.13:444][318]LogSlate: Window 'Atención: Errores de compilación en este material' being destroyed
+[2022.04.04-11.06.13:455][318]LogSlate: Window 'TreeFoliage' being destroyed
+[2022.04.04-11.06.13:458][318]LogSlate: Window 'TreeFoliage' being destroyed
+[2022.04.04-11.06.13:473][318]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-11.06.13:473][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-11.06.15:355][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.04.04-11.06.16:361][428]LogSlate: Window 'Guardar contenido' being destroyed
+[2022.04.04-11.06.16:398][428]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Bark6E98E8FF43C901150EAC7ABA8E400ADA.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/FreeAssets/Tree/Bark.uasset'
+[2022.04.04-11.06.16:401][428]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/LeavesBA5A9BEB4F34504ACAF5138CD17D3AA3.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/FreeAssets/Tree/Leaves.uasset'
+[2022.04.04-11.06.16:410][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.04.04-11.06.16:568][428]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/ThirdPersonExampleMapC8D621544A3C4DDE481352A50D39F5F7.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.04.04-11.06.16:577][428]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.174
+[2022.04.04-11.06.16:602][428]LogSlate: Window 'Ejercicio2 - Unreal Editor' being destroyed
+[2022.04.04-11.06.16:727][428]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.04-11.06.16:727][428]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.04.04-11.06.16:727][428]LogContentValidation: Display: Validating Material /Game/MisAssets/FreeAssets/Tree/Bark.Bark
+[2022.04.04-11.06.16:727][428]LogContentValidation: Display: Validating Material /Game/MisAssets/FreeAssets/Tree/Leaves.Leaves
+[2022.04.04-11.06.16:729][429]Cmd: QUIT_EDITOR
+[2022.04.04-11.06.16:729][429]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.04-11.06.16:734][429]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2022.04.04-11.06.16:736][429]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.04-11.06.17:421][429]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.04-11.06.17:421][429]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.04-11.06.17:421][429]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonExampleMap'.
+[2022.04.04-11.06.17:421][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-11.06.17:423][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-11.06.17:462][429]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.04-11.06.17:463][429]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.04-11.06.17:467][429]LogExit: Preparing to exit.
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAA200] Windows
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAA300] Default__DeviceProfile
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FA600] WindowsNoEditor
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9400] WindowsServer
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FB300] WindowsClient
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8800] IOS
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FAB00] iPadAir
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8C00] iPadAir2
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602200] IPadPro
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602300] iPadAir3
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9F9400] iPadAir4
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603B00] iPadMini2
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FBF00] iPadMini3
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601400] iPadMini4
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FBD00] iPadMini5
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9B00] iPhone6
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9C00] iPodTouch6
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602000] iPhone7
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601D00] iPodTouch7
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CB300] iPhone5S
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603C00] iPhone6Plus
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9600] iPhone6S
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C600E00] iPhone6SPlus
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C8700] iPhone7Plus
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C600A00] iPhoneSE
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CAB00] iPhone8
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602D00] iPhone8Plus
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C8200] iPhoneX
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603300] iPhoneXS
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA600] iPhoneXSMax
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602B00] iPhoneXR
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C8D00] iPhone11
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602900] iPhone11Pro
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA900] iPhone11ProMax
+[2022.04.04-11.06.18:558][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603A00] iPhoneSE2
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA400] iPhone12Mini
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601100] iPhone12
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9700] iPhone12Pro
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603F00] iPhone12ProMax
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9300] iPadPro105
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAB400] iPadPro129
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9200] iPadPro97
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9000] iPadPro2_129
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CBD00] iPad5
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9200] iPad6
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C8B00] iPad7
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8600] iPad8
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CB000] iPadPro11
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9C00] iPadPro2_11
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA200] iPadPro3_129
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAB200] iPadPro4_129
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CBF00] AppleTV
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8400] AppleTV4K
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CB200] TVOS
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAA900] Mac
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA000] MacClient
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAAF00] MacNoEditor
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CAE00] MacServer
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8A00] Linux
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C8A00] LinuxAArch64
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9E00] LinuxNoEditor
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CB600] LinuxAArch64NoEditor
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8B00] LinuxClient
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CB700] LinuxAArch64Client
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA8500] LinuxServer
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA500] LinuxAArch64Server
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9F00] Android
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C8E00] Android_Low
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAA700] Android_Mid
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9F00] Android_High
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9B00] Android_Default
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9800] Android_Adreno4xx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAB500] Android_Adreno5xx_Low
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CBA00] Android_Adreno5xx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAAAA00] Android_Adreno6xx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7C9400] Android_Adreno6xx_Vulkan
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9300] Android_Mali_T6xx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CA800] Android_Mali_T7xx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03AAA9700] Android_Mali_T8xx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B7CAA00] Android_Mali_G71
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C602400] Android_Mali_G72
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9F8300] Android_Mali_G72_Vulkan
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601000] Android_Mali_G76
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9F8A00] Android_Mali_G76_Vulkan
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C600800] Android_Mali_G77
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9F9700] Android_Mali_G77_Vulkan
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C600300] Android_Vulkan_SM5
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9F8400] Android_PowerVR_G6xxx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603100] Android_PowerVR_GT7xxx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FA100] Android_PowerVR_GE8xxx
+[2022.04.04-11.06.18:559][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601600] Android_PowerVR_GM9xxx
+[2022.04.04-11.06.18:560][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FBE00] Android_PowerVR_GM9xxx_Vulkan
+[2022.04.04-11.06.18:560][429]LogDeviceProfile: Device profile begin destroy: [000001E03C603900] Android_TegraK1
+[2022.04.04-11.06.18:560][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9FB800] Android_Unknown_Vulkan
+[2022.04.04-11.06.18:560][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601700] Lumin
+[2022.04.04-11.06.18:560][429]LogDeviceProfile: Device profile begin destroy: [000001E03B9F9F00] Lumin_Desktop
+[2022.04.04-11.06.18:560][429]LogDeviceProfile: Device profile begin destroy: [000001E03C601E00] HoloLens
+[2022.04.04-11.06.18:569][429]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-11.06.18:569][429]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-11.06.18:573][429]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-11.06.18:588][429]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.04-11.06.18:595][429]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-11.06.18:595][429]LogExit: Editor shut down
+[2022.04.04-11.06.18:595][429]LogExit: Transaction tracking system shut down
+[2022.04.04-11.06.18:825][429]LogExit: Object subsystem successfully closed.
+[2022.04.04-11.06.18:847][429]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.04.04-11.06.18:881][429]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (830)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module Voice (828)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (826)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module SceneOutliner (824)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module AddContentDialog (822)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WidgetCarousel (821)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module EditorWidgets (818)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module StatsViewer (816)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (814)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (812)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module AutomationWorker (810)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module SteamVREditor (808)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module OculusMR (806)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module TextureAlignMode (804)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module BspMode (802)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module GeometryMode (800)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module GooglePADEditor (798)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (796)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WaterEditor (794)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module PlanarCut (792)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (790)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (788)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (786)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (784)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module WebMMedia (782)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (780)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (778)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (776)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (774)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (772)
+[2022.04.04-11.06.18:882][429]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (770)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module SequenceRecorder (769)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (766)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (764)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (762)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module CharacterAI (760)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (758)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (756)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (754)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (752)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (750)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (748)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (746)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (744)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module SmartSnapping (742)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module SessionServices (740)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (738)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module FoliageEdit (736)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module LandscapeEditor (734)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module MeshPaintMode (732)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module MeshPaint (731)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (728)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module ActorPickerMode (726)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module PlacementMode (724)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module ViewportSnapping (722)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module ViewportInteraction (720)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module ClothPainter (718)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (717)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module LogVisualizer (714)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module IntroTutorials (712)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (711)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (708)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (706)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (704)
+[2022.04.04-11.06.18:883][429]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (703)
+[2022.04.04-11.06.19:082][429]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (700)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (698)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (696)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (694)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module TraceInsights (692)
+[2022.04.04-11.06.19:083][429]MemoryProfiler: Shutdown
+[2022.04.04-11.06.19:083][429]NetworkingProfiler: Shutdown
+[2022.04.04-11.06.19:083][429]LoadingProfiler: Shutdown
+[2022.04.04-11.06.19:083][429]TimingProfiler: Shutdown
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module TraceServices (691)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (688)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (686)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module InputBindingEditor (684)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module MergeActors (682)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (680)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module LocalizationService (679)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module HardwareTargeting (676)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (674)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module UndoHistory (672)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module XmlParser (670)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module Blutility (668)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (666)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (665)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (662)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (661)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module SettingsEditor (658)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module ProjectLauncher (656)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module SessionFrontend (654)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module ProfilerClient (652)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module DeviceManager (650)
+[2022.04.04-11.06.19:083][429]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (649)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module AutomationController (646)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module AutomationWindow (644)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module Layers (642)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (640)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module DetailCustomizations (638)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module PackagesDialog (636)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (634)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module Persona (632)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (631)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module AnimGraph (629)
+[2022.04.04-11.06.19:116][429]LogModuleManager: Shutting down and abandoning module Kismet (626)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module KismetWidgets (625)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module GraphEditor (622)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module StructViewer (620)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module ClassViewer (618)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module Toolbox (616)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module ModuleUI (614)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module OutputLog (612)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module GammaUI (610)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module Documentation (608)
+[2022.04.04-11.06.19:117][429]LogModuleManager: Shutting down and abandoning module LiveCoding (606)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module LevelSequence (604)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (602)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module MovieScene (600)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (598)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module LauncherPlatform (596)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module AnalyticsET (594)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module PortalServices (592)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module PortalRpc (590)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module MessagingRpc (588)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (586)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module AudioMixerCore (585)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module AIModule (582)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module GameplayDebugger (581)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module AITestSuite (579)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module NavigationSystem (577)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (574)
+[2022.04.04-11.06.19:118][429]LogModuleManager: Shutting down and abandoning module ProfilerService (572)
+[2022.04.04-11.06.19:352][429]LogModuleManager: Shutting down and abandoning module TaskGraph (570)
+[2022.04.04-11.06.19:352][429]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (568)
+[2022.04.04-11.06.19:352][429]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (566)
+[2022.04.04-11.06.19:352][429]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (564)
+[2022.04.04-11.06.19:352][429]LogModuleManager: Shutting down and abandoning module CollectionManager (563)
+[2022.04.04-11.06.19:352][429]LogModuleManager: Shutting down and abandoning module OculusEditor (560)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module OculusInput (558)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (556)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module PluginBrowser (554)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (552)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (550)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module CurveEditorTools (548)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (546)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module CryptoKeys (544)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (542)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ScreenshotTools (540)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module SynthesisEditor (538)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module Synthesis (536)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (534)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (532)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (530)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GooglePAD (528)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module EditableMesh (526)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (524)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module CableComponent (522)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AudioCapture (520)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (519)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AssetTags (516)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (514)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (512)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AppleImageUtils (510)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AndroidPermission (508)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (506)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (504)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (502)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MotoSynth (500)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module LandmassEditor (498)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module Landmass (496)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MeshConversion (492)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module DynamicMesh (490)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (488)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometricObjects (486)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (484)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (483)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (480)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (478)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (476)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (474)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module MediaCompositing (472)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ImgMedia (470)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (468)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ChaosNiagara (466)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (464)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module FractureEditor (462)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (461)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module BackChannel (458)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (456)
+[2022.04.04-11.06.19:353][429]LogModuleManager: Shutting down and abandoning module AutomationUtils (454)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module AlembicImporter (452)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module AlembicLibrary (451)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module GeometryCache (450)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (449)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (444)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (442)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (440)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (438)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (436)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (434)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (432)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (430)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (428)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (426)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module UObjectPlugin (424)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (422)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (420)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module PluginUtils (418)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (416)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (414)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module GitSourceControl (412)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module SourceControl (411)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (408)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (406)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (404)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (402)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module Paper2DEditor (400)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (398)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (396)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (394)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (392)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module FacialAnimation (390)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module DataValidation (388)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (386)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (384)
+[2022.04.04-11.06.19:354][429]LogModuleManager: Shutting down and abandoning module LevelEditor (383)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (382)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (380)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module MainFrame (378)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module HotReload (377)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module ToolMenus (373)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module ContentBrowser (371)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module ContentBrowserData (370)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module TreeMap (367)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2022.04.04-11.06.19:355][429]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (358)
+[2022.04.04-11.06.19:356][429]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (356)
+[2022.04.04-11.06.19:356][429]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (352)
+[2022.04.04-11.06.19:356][429]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (350)
+[2022.04.04-11.06.19:356][429]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (348)
+[2022.04.04-11.06.19:356][429]LogModuleManager: Shutting down and abandoning module ActorSequence (346)
+[2022.04.04-11.06.19:356][429]LogModuleManager: Shutting down and abandoning module UdpMessaging (344)
+[2022.04.04-11.06.19:457][429]LogModuleManager: Shutting down and abandoning module TcpMessaging (342)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (340)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (338)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (336)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (334)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (332)
+[2022.04.04-11.06.19:558][429]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (330)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (328)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (326)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (324)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapController (322)
+[2022.04.04-11.06.19:558][429]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (320)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module MagicLeapAR (318)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module AugmentedReality (317)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (314)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module Niagara (312)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module SignalProcessing (311)
+[2022.04.04-11.06.19:558][429]LogModuleManager: Shutting down and abandoning module NiagaraEditor (309)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module NiagaraCore (306)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (304)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module AnimationSharing (302)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (300)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module Paper2D (298)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module BlueprintMaterialTextureNodes (296)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (294)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (292)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (290)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module PacketHandler (288)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (286)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (284)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module MediaAssets (282)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module Overlay (280)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module OverlayEditor (279)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module VREditor (276)
+[2022.04.04-11.06.19:559][429]LogModuleManager: Shutting down and abandoning module StringTableEditor (274)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (272)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (270)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module FunctionalTesting (268)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (266)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (265)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module UMG (262)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module UMGEditor (261)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module MessageLog (259)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module SlateReflector (254)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module Slate (252)
+[2022.04.04-11.06.19:560][429]LogModuleManager: Shutting down and abandoning module SlateCore (250)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (248)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module UnrealEd (246)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module MRMesh (244)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (242)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (240)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module XAudio2 (238)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module Networking (236)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module Core (234)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module MaterialEditor (232)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module MovieSceneTools (230)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module CurveEditor (229)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module Sequencer (227)
+[2022.04.04-11.06.19:561][429]LogModuleManager: Shutting down and abandoning module EditorStyle (226)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module KismetCompiler (222)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MeshBuilder (220)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MeshUtilities (218)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (217)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (216)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (215)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (213)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (211)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (209)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MaterialBaking (205)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (200)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (195)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (193)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (187)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (185)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (183)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (181)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (179)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (177)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (175)
+[2022.04.04-11.06.19:562][429]LogModuleManager: Shutting down and abandoning module ImageWrapper (174)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (171)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (169)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (167)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (165)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (163)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (161)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (159)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (157)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (155)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (153)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (151)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (149)
+[2022.04.04-11.06.19:563][429]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (147)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (145)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (143)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (141)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (139)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (137)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (135)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (133)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module Messaging (131)
+[2022.04.04-11.06.19:564][429]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (129)
+[2022.04.04-11.06.19:565][429]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (127)
+[2022.04.04-11.06.19:567][429]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (125)
+[2022.04.04-11.06.19:567][429]LogModuleManager: Shutting down and abandoning module InputCore (122)
+[2022.04.04-11.06.19:567][429]LogModuleManager: Shutting down and abandoning module Settings (120)
+[2022.04.04-11.06.19:567][429]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (118)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module PhysXCooking (116)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module Chaos (114)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (112)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (111)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module AVEncoder (110)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (106)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module SteamVRInput (104)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2022.04.04-11.06.19:568][429]LogHMD: Freeing OpenVRDLLHandle.
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module OculusHMD (100)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2022.04.04-11.06.19:568][429]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2022.04.04-11.06.19:569][429]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2022.04.04-11.06.19:569][429]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2022.04.04-11.06.19:589][429]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2022.04.04-11.06.19:589][429]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.04.04-11.06.19:589][429]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.04.04-11.06.19:589][429]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.04.04-11.06.19:589][429]LogHttp: Warning: 000001E064E51D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-11.06.19:589][429]LogHttp: Warning: 000001E064E51D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-11.06.19:589][429]LogHttp: Warning: 000001E064E51D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-11.06.19:589][429]LogHttp: Warning: 000001E064E51D00: libcurl info message cache 1 (Closing connection 18)
+[2022.04.04-11.06.19:601][429]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2022.04.04-11.06.19:602][429]LogModuleManager: Shutting down and abandoning module Water (74)
+[2022.04.04-11.06.19:602][429]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2022.04.04-11.06.19:604][429]LogModuleManager: Shutting down and abandoning module Media (71)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module ChaosCloth (64)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module VariantManagerContent (58)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module DatasmithContent (56)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (54)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module NiagaraShader (52)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2022.04.04-11.06.19:605][429]LogXGEController: Cleaning working directory: C:/Users/javie/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.04.04-11.06.19:605][429]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.04.04-11.06.19:606][429]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.04.04-11.06.19:606][429]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.04.04-11.06.19:606][429]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.04.04-11.06.19:606][429]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.04.04-11.06.19:606][429]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.04.04-11.06.19:607][429]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.04.04-11.06.19:607][429]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.04.04-11.06.19:611][429]LogD3D11RHI: Shutdown
+[2022.04.04-11.06.19:611][429]LogD3D11RHI: CleanupD3DDevice
+[2022.04.04-11.06.19:626][429]LogExit: Exiting.
+[2022.04.04-11.06.19:632][429]Log file closed, 04/04/22 13:06:19
