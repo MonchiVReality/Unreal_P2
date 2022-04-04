@@ -1173,3 +1173,434 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.04.04-10.49.04:588][562]LogContentValidation: Display: Validating StaticMesh /Game/MisAssets/FreeAssets/Corn/10439_Corn_Field_v1_max2010_it2.10439_Corn_Field_v1_max2010_it2
 [2022.04.04-10.49.04:588][562]LogContentValidation: Display: Validating Material /Game/MisAssets/FreeAssets/Corn/10439_Corn_Field_v1.10439_Corn_Field_v1
 [2022.04.04-10.49.04:588][562]LogContentValidation: Display: Validating Texture2D /Game/MisAssets/FreeAssets/Corn/10439_Corn_Field_v1_Diffuse.10439_Corn_Field_v1_Diffuse
+[2022.04.04-10.49.30:999][387]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.49.31:005][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.49.31:005][387]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:49:31)
+[2022.04.04-10.49.31:007][387]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.04.04-10.49.31:008][387]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.04.04-10.49.31:008][387]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.49.31:065][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057812s)
+[2022.04.04-10.49.31:066][387]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.49.31:067][387]LogPlayLevel: PIE: World Init took: (0.001678s)
+[2022.04.04-10.49.31:067][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059761s)
+[2022.04.04-10.49.31:085][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.04.04-10.49.31:087][387]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.49.31:087][387]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.49.31:088][387]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.49.31:088][387]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.49.31:088][387]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.49.31:090][387]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.49.31:090][387]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.49.31:142][387]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.49.31:142][387]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.49.31:142][387]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.49.31:142][387]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.49.31:143][387]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.49.31:143][387]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.49.31:143][387]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.49.31:166][387]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.49.31:166][387]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.49.31:166][387]LogInit: FAudioDevice initialized.
+[2022.04.04-10.49.31:166][387]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.49.31:181][387]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.49.31:185][387]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.49.31
+[2022.04.04-10.49.31:187][387]LogWorld: Bringing up level for play took: 0.005157
+[2022.04.04-10.49.31:188][387]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.04.04-10.49.31:191][387]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.04.04-10.49.31:191][387]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.49.31:193][387]PIE: Play in editor total start time 0,189 seconds.
+[2022.04.04-10.49.42:625][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.49.42:625][921]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.49.42:626][921]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.49.42:626][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.49.42:658][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.49.42:660][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.49.42:666][921]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.49.42:666][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.49.42:667][921]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.49.42:689][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.49.42:694][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2022.04.04-10.49.42:714][922]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.04.04-10.50.25:480][413]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/javie/Downloads/LowPolyVegetation/7bmzbr68wxkw-LowPolyTree/lowpolytree.obj)
+[2022.04.04-10.50.25:488][413]LogFbx: Loading FBX Scene from ../../../../../../Users/javie/Downloads/LowPolyVegetation/7bmzbr68wxkw-LowPolyTree/lowpolytree.obj
+[2022.04.04-10.50.25:490][413]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.04-10.50.42:235][413]LogSlate: Window 'Opciones de importación de FBX' being destroyed
+[2022.04.04-10.50.42:260][413]LogMaterial: Display: Missing cached shader map for material Leaves, compiling. 
+[2022.04.04-10.50.42:276][413]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.04.04-10.50.42:276][413]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2022.04.04-10.50.42:276][413]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2022.04.04-10.50.42:282][413]LogMaterial: Display: Missing cached shader map for material Bark, compiling. 
+[2022.04.04-10.50.42:293][413]LogFbx: Display: Triangulating static mesh default
+[2022.04.04-10.50.42:307][413]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2022.04.04-10.50.42:311][413]LogStaticMesh: Generando la malla estática lowpolytree...
+[2022.04.04-10.50.42:315][413]LogStaticMesh: Built static mesh [0.00s] /Game/MisAssets/FreeAssets/lowpolytree.lowpolytree
+[2022.04.04-10.50.42:324][413]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.04.04-10.50.42:443][413]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1e01a0afeb0 [can pipeline])
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.54.106.10) port 443 (#1))
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.04.04-10.50.42:446][414]LogHttp: Warning: 000001E09A2DC100: libcurl info message cache 7 (Closing connection 1)
+[2022.04.04-10.50.42:451][414]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.50.44:317][462]LogSlate: Window 'Registro del mensaje' being destroyed
+[2022.04.04-10.50.44:383][462]LogSlate: Window 'Registro del mensaje' being destroyed
+[2022.04.04-10.50.45:038][480]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.04.04-10.50.45:300][486]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2022.04.04-10.50.45:343][487]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-10.50.45:387][488]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.04.04-10.50.45:920][500]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2022.04.04-10.50.49:721][592]LogContentBrowser: Deferred new asset folder creation: Carpeta nueva
+[2022.04.04-10.50.49:779][592]LogContentBrowser: Creating deferred item: Carpeta nueva
+[2022.04.04-10.50.51:298][637]LogContentBrowser: Attempting asset rename: Carpeta nueva -> Tree
+[2022.04.04-10.50.51:298][637]LogContentBrowser: End creating deferred item Carpeta nueva
+[2022.04.04-10.50.58:080][801]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/lowpolytreeA630C4C747FCFC71DF94C1A97A0B4F6A.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/FreeAssets/Tree/lowpolytree.uasset'
+[2022.04.04-10.50.58:098][801]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/BarkD79A4D8B416CDA281F65799767883116.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/FreeAssets/Tree/Bark.uasset'
+[2022.04.04-10.50.58:116][801]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/Leaves7446D01F438E33D7E4B1889C8EFAB109.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/FreeAssets/Tree/Leaves.uasset'
+[2022.04.04-10.50.58:185][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.04.04-10.50.58:192][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2022.04.04-10.50.58:199][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.04.04-10.50.58:215][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.04.04-10.50.58:222][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.04.04-10.50.58:265][801]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.04-10.50.58:265][801]LogContentValidation: Display: Validating Material /Game/MisAssets/FreeAssets/Tree/Bark.Bark
+[2022.04.04-10.50.58:265][801]LogContentValidation: Display: Validating Material /Game/MisAssets/FreeAssets/Tree/Leaves.Leaves
+[2022.04.04-10.50.58:265][801]LogContentValidation: Display: Validating StaticMesh /Game/MisAssets/FreeAssets/Tree/lowpolytree.lowpolytree
+[2022.04.04-10.51.04:645][985]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliageBD4E7DD94654520CFE92E5ADD5D6FEF0.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.51.04:658][985]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.51.04:658][985]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.51.08:221][117]LogHttp: Warning: 000001E065BC7200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.51.08:221][117]LogHttp: Warning: 000001E065BC7200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.51.08:221][117]LogHttp: Warning: 000001E065BC7200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.51.08:221][117]LogHttp: Warning: 000001E065BC7200: libcurl info message cache 1 (Closing connection 2)
+[2022.04.04-10.51.08:251][118]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.51.59:553][970]LogMaterial: Display: Material /Game/MisAssets/FreeAssets/Tree/Leaves.Leaves needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2022.04.04-10.51.59:554][970]LogMaterial: Display: Missing cached shader map for material Leaves, compiling. 
+[2022.04.04-10.51.59:568][970]LogMaterial: Display: Material /Game/MisAssets/FreeAssets/Tree/Bark.Bark needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2022.04.04-10.51.59:569][970]LogMaterial: Display: Missing cached shader map for material Bark, compiling. 
+[2022.04.04-10.51.59:583][970]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2022.04.04-10.51.59:583][970]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2022.04.04-10.51.59:583][970]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2022.04.04-10.51.59:583][970]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2022.04.04-10.52.01:256][999]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2022.04.04-10.52.03:119][  9]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2022.04.04-10.52.03:249][  9]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2022.04.04-10.52.03:867][ 13]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2022.04.04-10.52.04:474][ 17]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2022.04.04-10.52.05:349][ 25]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2022.04.04-10.52.05:646][ 26]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2022.04.04-10.52.05:675][ 27]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.04.04-10.52.08:274][ 73]LogHttp: Warning: 000001E08DA03900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.52.08:274][ 73]LogHttp: Warning: 000001E08DA03900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.52.08:274][ 73]LogHttp: Warning: 000001E08DA03900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.52.08:274][ 73]LogHttp: Warning: 000001E08DA03900: libcurl info message cache 1 (Closing connection 3)
+[2022.04.04-10.52.08:368][ 74]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.53.08:230][137]LogHttp: Warning: 000001E08D624100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.53.08:230][137]LogHttp: Warning: 000001E08D624100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.53.08:230][137]LogHttp: Warning: 000001E08D624100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.53.08:230][137]LogHttp: Warning: 000001E08D624100: libcurl info message cache 1 (Closing connection 4)
+[2022.04.04-10.53.08:261][138]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.53.29:082][751]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliageF156ABB04F61FFE5E084D482D529C96D.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.53.29:096][751]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.53.29:096][751]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.53.48:466][456]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.53.48:472][456]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.53.48:472][456]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:53:48)
+[2022.04.04-10.53.48:473][456]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.53.48:541][456]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068210s)
+[2022.04.04-10.53.48:544][456]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.53.48:545][456]LogPlayLevel: PIE: World Init took: (0.003351s)
+[2022.04.04-10.53.48:545][456]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.071820s)
+[2022.04.04-10.53.48:571][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.04.04-10.53.48:572][456]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.04.04-10.53.48:572][456]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.53.48:572][456]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.53.48:572][456]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.53.48:572][456]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.53.48:573][456]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.53.48:573][456]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.53.48:573][456]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.53.48:573][456]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.53.48:573][456]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.53.48:573][456]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.53.48:575][456]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.53.48:575][456]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.53.48:625][456]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.53.48:625][456]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.53.48:625][456]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.53.48:625][456]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.53.48:625][456]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.53.48:625][456]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.53.48:625][456]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.53.48:645][456]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.53.48:645][456]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.53.48:645][456]LogInit: FAudioDevice initialized.
+[2022.04.04-10.53.48:645][456]LogAudio: Display: Audio Device (ID: 3) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.53.48:658][456]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.53.48:662][456]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.53.48
+[2022.04.04-10.53.48:664][456]LogWorld: Bringing up level for play took: 0.005197
+[2022.04.04-10.53.48:664][456]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.04.04-10.53.48:667][456]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.53.48:668][456]PIE: Play in editor total start time 0,196 seconds.
+[2022.04.04-10.54.02:535][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.54.02:535][990]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.54.02:535][990]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.54.02:536][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.54.02:577][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.54.02:579][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.54.02:585][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.54.02:586][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.54.02:587][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.54.02:609][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.54.02:612][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.04.04-10.54.02:636][991]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.04.04-10.54.08:204][176]LogHttp: Warning: 000001E0CBDD5D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.54.08:204][176]LogHttp: Warning: 000001E0CBDD5D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.54.08:204][176]LogHttp: Warning: 000001E0CBDD5D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.54.08:204][176]LogHttp: Warning: 000001E0CBDD5D00: libcurl info message cache 1 (Closing connection 5)
+[2022.04.04-10.54.08:204][176]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.54.10:494][265]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliage5B16E44E4B86E2B6F12A1DAAA03351AC.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.54.10:509][265]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.54.10:509][265]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.54.14:723][438]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.54.14:729][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.54.14:729][438]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:54:14)
+[2022.04.04-10.54.14:729][438]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.54.14:789][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060248s)
+[2022.04.04-10.54.14:791][438]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.54.14:792][438]LogPlayLevel: PIE: World Init took: (0.002113s)
+[2022.04.04-10.54.14:792][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.062602s)
+[2022.04.04-10.54.14:810][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.04.04-10.54.14:812][438]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.54.14:812][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.54.14:812][438]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.54.14:812][438]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.54.14:814][438]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.54.14:814][438]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.54.14:862][438]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.54.14:862][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.54.14:862][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.54.14:862][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.54.14:863][438]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.54.14:863][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.54.14:863][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.54.14:882][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.54.14:882][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.54.14:882][438]LogInit: FAudioDevice initialized.
+[2022.04.04-10.54.14:882][438]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.54.14:892][438]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.54.14:897][438]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.54.14
+[2022.04.04-10.54.14:899][438]LogWorld: Bringing up level for play took: 0.005452
+[2022.04.04-10.54.14:899][438]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2022.04.04-10.54.14:901][438]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.54.14:902][438]PIE: Play in editor total start time 0,175 seconds.
+[2022.04.04-10.54.33:805][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.54.33:806][541]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.54.33:806][541]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.54.33:807][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.54.33:819][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.54.33:820][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.54.33:827][541]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.54.33:828][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.54.33:829][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.54.33:851][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.54.33:855][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.04.04-10.54.33:877][542]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2022.04.04-10.54.42:315][874]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliage25965AF443F38ECEE96CBFA3995FD6AB.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.54.42:330][874]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.54.42:330][874]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.54.44:877][996]LogEditorViewport: Clicking on Actor (context menu): WaterBodyOcean (WaterBodyOcean)
+[2022.04.04-10.54.46:239][ 63]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.54.46:245][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.54.46:246][ 63]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:54:46)
+[2022.04.04-10.54.46:246][ 63]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.54.46:305][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059761s)
+[2022.04.04-10.54.46:307][ 63]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.54.46:307][ 63]LogPlayLevel: PIE: World Init took: (0.001916s)
+[2022.04.04-10.54.46:307][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061892s)
+[2022.04.04-10.54.46:327][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.04.04-10.54.46:329][ 63]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.54.46:329][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.54.46:329][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.54.46:330][ 63]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.54.46:330][ 63]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.54.46:331][ 63]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.54.46:331][ 63]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.54.46:380][ 63]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.54.46:380][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.54.46:380][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.54.46:380][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.54.46:380][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.54.46:381][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.54.46:381][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.54.46:400][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.54.46:400][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.54.46:400][ 63]LogInit: FAudioDevice initialized.
+[2022.04.04-10.54.46:400][ 63]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.54.46:410][ 63]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.54.46:413][ 63]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.54.46
+[2022.04.04-10.54.46:416][ 63]LogWorld: Bringing up level for play took: 0.005111
+[2022.04.04-10.54.46:416][ 63]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2022.04.04-10.54.46:418][ 63]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.54.46:419][ 63]PIE: Play in editor total start time 0,175 seconds.
+[2022.04.04-10.55.03:485][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.55.03:485][686]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.55.03:486][686]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.55.03:486][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.55.03:547][686]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.55.03:549][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.55.03:555][686]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.55.03:555][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.55.03:556][686]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.55.03:578][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.55.03:582][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.04.04-10.55.03:604][687]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.04.04-10.55.08:229][796]LogHttp: Warning: 000001E08D567900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.55.08:229][796]LogHttp: Warning: 000001E08D567900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.55.08:229][796]LogHttp: Warning: 000001E08D567900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.55.08:229][796]LogHttp: Warning: 000001E08D567900: libcurl info message cache 1 (Closing connection 6)
+[2022.04.04-10.55.08:229][796]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.55.21:380][403]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliage58E296A842DB5367EFF9148EF8CCE7D2.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.55.21:394][403]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.55.21:394][403]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.55.30:823][957]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.55.30:828][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.55.30:829][957]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:55:30)
+[2022.04.04-10.55.30:829][957]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.55.30:884][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056350s)
+[2022.04.04-10.55.30:886][957]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.55.30:886][957]LogPlayLevel: PIE: World Init took: (0.001714s)
+[2022.04.04-10.55.30:886][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.058261s)
+[2022.04.04-10.55.30:906][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.04.04-10.55.30:907][957]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.55.30:908][957]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.55.30:908][957]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.55.30:908][957]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.55.30:910][957]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.55.30:910][957]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.55.30:958][957]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.55.30:959][957]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.55.30:959][957]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.55.30:959][957]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.55.30:959][957]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.55.30:959][957]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.55.30:959][957]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.55.30:960][957]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.55.30:960][957]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.55.30:960][957]LogInit: FAudioDevice initialized.
+[2022.04.04-10.55.30:960][957]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.55.30:983][957]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.55.30:987][957]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.55.30
+[2022.04.04-10.55.30:989][957]LogWorld: Bringing up level for play took: 0.004932
+[2022.04.04-10.55.30:989][957]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.04.04-10.55.30:992][957]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.55.30:993][957]PIE: Play in editor total start time 0,165 seconds.
+[2022.04.04-10.55.43:615][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.55.43:615][709]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.55.43:615][709]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.55.43:616][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.55.43:625][709]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.55.43:627][709]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.55.43:634][709]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.55.43:634][709]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.55.43:635][709]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.55.43:656][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.55.43:660][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.04.04-10.55.43:682][710]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.04.04-10.56.03:960][860]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliageA709F22C460915904F28C1BAEE7EDCA7.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.56.03:974][860]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.56.03:974][860]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.56.08:221][110]LogHttp: Warning: 000001E0C27C2B00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.56.08:221][110]LogHttp: Warning: 000001E0C27C2B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.56.08:221][110]LogHttp: Warning: 000001E0C27C2B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.56.08:221][110]LogHttp: Warning: 000001E0C27C2B00: libcurl info message cache 1 (Closing connection 7)
+[2022.04.04-10.56.08:221][110]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.56.20:352][821]LogSavePackage: Moving '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Saved/GrassFoliageA7825A064082236C7D4D0EBA26D13BBD.tmp' to '../../../../../../Users/javie/Documents/Github/Github/Unreal_P2/Ejercicio2/Content/MisAssets/Texturas/Materiales/GrassFoliage.uasset'
+[2022.04.04-10.56.20:365][821]AssetCheck: New page: Asset Save: GrassFoliage
+[2022.04.04-10.56.20:365][821]LogContentValidation: Display: Validating LandscapeGrassType /Game/MisAssets/Texturas/Materiales/GrassFoliage.GrassFoliage
+[2022.04.04-10.56.23:010][977]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.04-10.56.23:016][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.04-10.56.23:016][977]PIE: New page: Sesión PIE (reproducción en el editor): ThirdPersonExampleMap (4 abr. 2022 14:56:23)
+[2022.04.04-10.56.23:016][977]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.56.23:074][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057565s)
+[2022.04.04-10.56.23:076][977]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.04.04-10.56.23:076][977]LogPlayLevel: PIE: World Init took: (0.002136s)
+[2022.04.04-10.56.23:076][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059898s)
+[2022.04.04-10.56.23:102][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.04.04-10.56.23:104][977]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.04-10.56.23:104][977]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.04-10.56.23:104][977]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.04-10.56.23:105][977]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.04-10.56.23:105][977]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.04-10.56.23:106][977]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.04-10.56.23:106][977]LogAudioMixer: Display: 1: FrontRight
+[2022.04.04-10.56.23:154][977]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek High Definition Audio)
+[2022.04.04-10.56.23:155][977]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.04-10.56.23:155][977]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.04-10.56.23:155][977]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.04-10.56.23:155][977]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.04-10.56.23:155][977]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.04-10.56.23:155][977]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.04-10.56.23:174][977]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.04-10.56.23:174][977]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.04-10.56.23:174][977]LogInit: FAudioDevice initialized.
+[2022.04.04-10.56.23:174][977]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonExampleMap'.
+[2022.04.04-10.56.23:182][977]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.04.04-10.56.23:186][977]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2022.04.04-12.56.23
+[2022.04.04-10.56.23:189][977]LogWorld: Bringing up level for play took: 0.004933
+[2022.04.04-10.56.23:189][977]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2022.04.04-10.56.23:191][977]PIE: El servidor ha iniciado la sesión
+[2022.04.04-10.56.23:192][977]PIE: Play in editor total start time 0,176 seconds.
+[2022.04.04-10.57.08:215][653]LogHttp: Warning: 000001E0CBE02400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.04.04-10.57.08:216][653]LogHttp: Warning: 000001E0CBE02400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.04.04-10.57.08:216][653]LogHttp: Warning: 000001E0CBE02400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.04.04-10.57.08:216][653]LogHttp: Warning: 000001E0CBE02400: libcurl info message cache 1 (Closing connection 8)
+[2022.04.04-10.57.08:232][654]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD2606670-4506-625C-881C-5492E6AB78C6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=789d95da495b0c2febc22ca244bcce1b%7C678b46bd2cfa47ac84349f1c471e575e%7C96872597-5699-4b5e-a5b6-7a94ae128c43&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.04.04-10.57.31:275][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.57.31:276][ 34]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.04.04-10.57.31:276][ 34]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.04-10.57.31:276][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.57.31:287][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.04-10.57.31:289][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.04-10.57.31:296][ 34]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.04-10.57.31:297][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.57.31:298][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.04-10.57.31:323][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.04-10.57.31:328][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.04.04-10.57.31:358][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_10
